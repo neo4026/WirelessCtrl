@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="me.zhao.wirelesscontrol"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -10,6 +11,10 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SECURES"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    
 
     <application
         android:allowBackup="true"
