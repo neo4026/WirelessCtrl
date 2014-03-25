@@ -16,7 +16,7 @@ import android.util.Log;
 
 public class BootReceiver extends BroadcastReceiver {
 
-	// Wifi Hotspot Confingure
+	// Wifi Hotspot Configure
 	private static final String WIFI_HOTSPOT_SSID = "AndroidHotspot";
 	private static final String WIFI_HOTSPOT_PASSWORD = "12345678";
 
@@ -94,6 +94,7 @@ public class BootReceiver extends BroadcastReceiver {
 		// From android.provider.Settings.Secure
 		public static final String LOCATION_MODE = "location_mode";
 		public static final String LOCATION_PROVIDERS_ALLOWED = "location_providers_allowed";
+
 		public static final int LOCATION_MODE_OFF = 0;
 		public static final int LOCATION_MODE_SENSORS_ONLY = 1;
 		public static final int LOCATION_MODE_BATTERY_SAVING = 2;
